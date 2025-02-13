@@ -43,6 +43,7 @@ console.log(MapSvgIcon);
     drawTrash<MapSvgIcon icon="drawTrash" class="example-icon" />
     connection<MapSvgIcon icon="connection" class="example-icon" />
     comment<MapSvgIcon icon="comment" class="example-icon" />
+    globalSetting<MapSvgIcon icon="globalSetting" class="example-icon" />
   </div>
 </template>
 
