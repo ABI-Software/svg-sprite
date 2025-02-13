@@ -11,7 +11,8 @@ const removeTags = true
 const removeSVGTagAttrs = true
 const removingTagAttrs = ['fill']
 const svgContext = import.meta.glob("@/../assets/icons/*.svg", {
-  as: "raw",
+  query: '?raw',
+  import: 'default',
   eager: true,
 });
 const symbols = Object.keys(svgContext).map((path) => {
